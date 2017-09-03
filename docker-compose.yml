@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  additionmicroservice:
+    image: additionmicroservice
+    build:
+      context: ./AdditionMicroservice
+      dockerfile: Dockerfile
